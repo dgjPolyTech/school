@@ -10,3 +10,5 @@ df = pd.read_csv('data/csv/ys_food_market_result.csv', encoding='utf-8-sig')
 # 연결 설정은 db_engine 위에서 가져온거, 이미 데이터 있으면(if_exists) 교체, 각 컬럼마다 인덱싱 여부는 false
 df.to_sql(name='school_store', con=db_engine, if_exists='replace', index=False)
 print("데이터 업로드 완료.")
+
+# 커밋 확인용 주석
