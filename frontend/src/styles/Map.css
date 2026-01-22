@@ -1,0 +1,21 @@
+.map-container {
+    width: 1500px;
+    height: 1000px;
+
+    border: 5px solid black;
+}
+
+.sub-container {
+    width: 15%;
+    height: 90%;
+
+    border: 5px solid red;
+}
+
+.mid-container {
+    width: 60%;
+    height: 90%;
+
+    border: 5px solid blue;
+}
+
